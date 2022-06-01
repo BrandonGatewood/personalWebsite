@@ -1,0 +1,26 @@
+.header {
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+@media (min-width: 414px) {
+
+}
+@media(min-width: 769px) {
+    .nav-list {
+
+        list-style-type: none;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .list-item {
+        display: inline-block;
+        padding: 30px;
+      }
+    .nav-link, .nav-link:visited {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+    }
+}
