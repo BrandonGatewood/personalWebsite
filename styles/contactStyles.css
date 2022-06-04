@@ -1,21 +1,45 @@
+.form {
+    width: 325px;
+    margin: auto;
+}
+.form-element {
+    font-size: 20px;
+    font-family: bold;
+    display: block;
+    margin-top: 3%;
+    color: var(--white);
+}
+.form-input {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+#text {
+    height: 100px;
+}
 #buttons {
     display: block;
     margin: auto;
     margin-top: 3%;
 }
 .buttons {
-    display: block;
     margin: auto;
     margin-top: 3%;
     border-radius: 8px;
-    background-color: var(--white);
+    background-color: var(--blue-500);
     color: var(--black);
-    border: 2px solid var(--black);
+    border: 2px solid;
     width: 200px;
     padding: 14px 40px;
     font-size: 20px;
+    font-family: bold;
 }
 .buttons:hover {
     background-color: var(--black);
-    color: var(--white);
+    color: var(--blue-500);
 }
+

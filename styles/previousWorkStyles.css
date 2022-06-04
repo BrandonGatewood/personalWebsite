@@ -1,8 +1,6 @@
 .course-list {
-    list-style-type: none;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
+    color: var(--white);
+    opacity: 0.6;
 }
 .course-item {
     padding: 15px;
