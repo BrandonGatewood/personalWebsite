@@ -1,12 +1,13 @@
 :root {
     --black: #080808;
+    --white: #fff;
 }
-.header {
+.header-1 {
     text-align: center;
     margin: auto;
     padding: 2%;
 }
-.section-header {
+.header-2 {
     text-align: center;
 }
 .container {

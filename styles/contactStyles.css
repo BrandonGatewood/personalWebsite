@@ -1,0 +1,21 @@
+#buttons {
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+.buttons {
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 8px;
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--black);
+    width: 200px;
+    padding: 14px 40px;
+    font-size: 20px;
+}
+.buttons:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
