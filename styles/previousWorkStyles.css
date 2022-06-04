@@ -1,0 +1,9 @@
+.course-list {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.course-item {
+    padding: 15px;
+}
