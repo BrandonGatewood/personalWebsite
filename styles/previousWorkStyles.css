@@ -12,12 +12,12 @@
 .course-description {
     list-style-type: none;
 }
-@media (min-width: 414px) {
+@media(max-width: 414px) {
     .course-description {
         display: none;
     }
 }
-@media(min-width: 769px) {
+@media(min-width: 415px) {
     .course-description {
         display: contents;
     }

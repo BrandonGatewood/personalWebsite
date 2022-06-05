@@ -19,29 +19,25 @@
     background-color: var(--black);
     color: var(--blue-500);
 }
-
 .location-info {
     list-style-type: none;
     text-align: center;
     color: var(--white);
     margin-top: 5%;
 }
-
-@media(min-width: 414px) {
-    .container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10%;
-    }
-    .header-2 {
-        width: 100%;
-    }
-    .contact-info {
-        text-align: center;
-        color: var(--white);
-    }
-    .location-info {
-        width: 100%;
-    }
+.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+.header-2 {
+    width: 100%;
+}
+.contact-info {
+    text-align: center;
+    color: var(--white);
+}
+.location-info {
+    width: 100%;
 }
