@@ -9,6 +9,7 @@
 }
 .website-link:hover {
     color: var(--blue-500);
+    text-decoration: underline;
 }
 .project-list {
     color: var(--white);
