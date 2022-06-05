@@ -9,14 +9,21 @@
     <link rel="stylesheet" href="css/project-styles.css" />
 </head>
 <body>
-    <h1 class="header-1">Brandon Gatewood</h1>
-    <nav>
-        <ul class="nav-list">
-            <li class="list-item"><a class="nav-link" href="index.html">About</a></li>
-            <li class="list-item"><a class="nav-link" href="previousWork.html">Previous Work</a></li>
-            <li class="list-item"><a class="nav-link" href="projects.html">Projects</a></li>
-            <li class="list-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+    <nav class="nav-bar">
+        <div class="headers">
+            <h1 class="header-1" id="desktop-header">Brandon Gatewood</h1>
+            <h1 class="header-1" id="mobile-header">BG</h1>
+        </div>
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+            <ul class="nav-list">
+                <li class="list-item"><a class="nav-link" href="index.html">About</a></li>
+                <li class="list-item"><a class="nav-link" href="previousWork.html">Previous Work</a></li>
+                <li class="list-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="list-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
     <section class="container">
         <h2 class="header-2">Projects</h2>
@@ -53,7 +60,7 @@
                 Bootstrap.
             </p>
         </div> 
-        <p class="github-info">Check out my GitHub for other cool projects!</p>
+        <p class="github-info">Check out my GitHub for more cool projects!</p>
         <form class="btn-form" action="https://github.com/BrandonGatewood" target="_blank">
             <button class="buttons">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">

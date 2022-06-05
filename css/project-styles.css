@@ -63,7 +63,6 @@
     padding-bottom: 3%;
     margin: auto;
 }
-
 @media(min-width: 769px) {
     .container {
         flex-direction: row;
