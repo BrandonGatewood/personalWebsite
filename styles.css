@@ -22,11 +22,14 @@ body {
     color: var(--blue-200);
 }
 .header-2 {
+    display: block;
     text-align: center;
     color: var(--blue-200);
+    padding-bottom: 1%;
 }
 .container {
-    width: 414px;
+    display: flex;
+    flex-direction: column;
     background-color: var(--light-gray);
     border-radius: 10px;
     padding: 20px;
@@ -34,6 +37,9 @@ body {
     margin-top: 3%;
   }
 @media (min-width: 414px) {
+    
+}
+@media(min-width: 415px) and (max-width: 768px) {
 
 }
 @media(min-width: 769px) {

@@ -1,7 +1,24 @@
 .course-list {
     color: var(--white);
-    opacity: 0.6;
 }
 .course-item {
     padding: 15px;
+}
+.description-item {
+    color: var(--white);
+    opacity: 0.6;
+    padding-left: 15px;
+}
+.course-description {
+    list-style-type: none;
+}
+@media (min-width: 414px) {
+    .course-description {
+        display: none;
+    }
+}
+@media(min-width: 769px) {
+    .course-description {
+        display: contents;
+    }
 }
