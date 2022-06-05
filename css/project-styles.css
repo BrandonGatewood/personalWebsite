@@ -61,12 +61,7 @@
     width: 300px;
     padding-top: 3%;
     padding-bottom: 3%;
-}
-
-@media(max-width: 768px) {
-    .item-1, .item-2{
-        margin: auto;
-    }
+    margin: auto;
 }
 
 @media(min-width: 769px) {
