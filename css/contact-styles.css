@@ -19,7 +19,7 @@
     list-style-type: none;
     text-align: center;
     color: var(--white);
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .container {
     flex-direction: row;
