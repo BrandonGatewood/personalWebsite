@@ -7,17 +7,17 @@ function handleClick(event) {
     let email = document.querySelector('#email');
     let message = document.querySelector('#message');
     
+    //validate inputs before "sending" email
     if(name.value === "" && email.value === "" && message.value === "")
         alert("Name, Email, and Message required.");
     else if(name.value === "")
-        alert("name is required.");
+        alert("Name is required.");
     else if(email.value === "")
-        alert("email is requred.");
+        alert("Email is requred.");
     else if(message.value === "")
-        alert("message is requred.");
+        alert("Message is requred.");
     else
         alert("Email sent!");
 }
 
-//event listener to determine if name has been inputted
 
