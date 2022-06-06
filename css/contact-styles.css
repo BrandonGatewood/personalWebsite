@@ -52,13 +52,14 @@
     display: block;
     font-size: 20px;
     text-align: left;
-    margin-left: 0;
+    margin-left: 15px;
+    padding-left: 2px;
     margin-bottom: 1%;
 }
 .form-input {
     margin-bottom: 5%;
     font-size: 20px;
-    width: 250px;
+    width: auto;
 }
 .div-form {
     width: 250px;
@@ -96,5 +97,8 @@
     }
     .btn-form {
         width: 200px;
+    }
+    .form-element {
+        margin-left: 0;
     }
 }
