@@ -28,6 +28,42 @@
     </nav>
     <section class="container">
         <h2 class="header-2">Contact</h2>
+        <form class="contact-form" action="">
+            <div class="div-form">
+                <label class="form-element" for="name">Name</label>
+                <input
+                  class="form-input" 
+                  type="text"
+                  name="name"
+                  id="name"
+                >
+            </div>
+            <div class="div-form">
+                <label class="form-element" for="email">Email</label>
+                <input 
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                >
+            </div>
+            <div class="div-form">
+                <label class="form-element" for="message">Message</label>
+                <textarea
+                    class="form-input"
+                    id="message"
+                >
+                </textarea>
+            </div>
+            <div class="div-btn">
+                <button class="btn-form" type="submit">
+                    Submit
+                </button>
+                <button class="btn-form" type="reset">
+                    Reset
+                </button>
+            </div>
+        </form>
         <form action="mailto:brandongatewood9@gmail.com" target="_blank">
             <button class="buttons">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
@@ -46,12 +82,12 @@
             </button>
             <p class="contact-info">Let's Connect</p>
         </form>
-            <li class="location-info">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                  </svg>
-                  Portland, OR
-            </li>
+        <li class="location-info">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg>
+            Portland, OR
+        </li>
 
     </section>
 </body>

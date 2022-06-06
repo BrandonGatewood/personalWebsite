@@ -1,8 +1,4 @@
-#buttons {
-    display: block;
-    margin: auto;
-    margin-top: 3%;
-}
+
 .buttons {
     margin: auto;
     margin-top: 3%;
@@ -41,3 +37,64 @@
 .location-info {
     width: 100%;
 } 
+.contact-form {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--lighter-gray);
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+.form-element {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 1%;
+}
+.form-input {
+    margin-bottom: 5%;
+    font-size: 20px;
+    width: 250px;
+}
+.div-form {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+#message {
+    height: 150px;
+}
+.div-btn {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.btn-form {
+    margin: auto;
+    border-radius: 8px;
+    background-color: var(--blue-500);
+    color: var(--black);
+    border: 2px solid;
+    width: 125px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: bold;
+}
+.btn-form:hover {
+    background-color: var(--black);
+    color: var(--blue-500);
+}
+@media(min-width: 769px) {
+    .form-input {
+        width: 400px;
+    }
+    .div-form {
+        width: 400px;
+    }
+    .btn-form {
+        width: 200px;
+    }
+}
