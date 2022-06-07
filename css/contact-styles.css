@@ -84,6 +84,13 @@
     font-size: 20px;
     font-family: bold;
 }
+#secondary-btn {
+    background-color: var(--secondary-color);
+}
+#secondary-btn:hover {
+    background-color: var(--black);
+    color: var(--secondary-color);
+}
 .btn-form:hover {
     background-color: var(--black);
     color: var(--blue-500);

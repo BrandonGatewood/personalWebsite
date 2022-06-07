@@ -6,6 +6,7 @@
     --white: #FFFFFF;
     --blue-200: #79E2F2;
     --blue-500: #00A3Bf;
+    --secondary-color: #BB86FC;
 }
 html * {
     font-family: "San Francisco";
